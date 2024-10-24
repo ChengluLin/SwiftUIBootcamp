@@ -16,6 +16,7 @@ struct ColorsBootcamp: View {
                 Color("CustomColor")
             )
             .frame(width: 300, height: 200)
+            .shadow(color: Color("CustomColor").opacity(0.7), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: 20, y: 20)
     }
 }
 

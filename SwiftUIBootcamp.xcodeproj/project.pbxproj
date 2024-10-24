@@ -15,6 +15,8 @@
 		BDD011F82CC779FC0038CDE8 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011F72CC779FC0038CDE8 /* ShapesBootcamp.swift */; };
 		BDD011FA2CC785C10038CDE8 /* ColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011F92CC785C10038CDE8 /* ColorsBootcamp.swift */; };
 		BDD011FC2CC7B4070038CDE8 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011FB2CC7B4070038CDE8 /* Combine.swift */; };
+		BDD012002CC8C1D60038CDE8 /* ObservableObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011FF2CC8C1D60038CDE8 /* ObservableObjectBootcamp.swift */; };
+		BDD012032CC9191D0038CDE8 /* GradientsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012022CC9191D0038CDE8 /* GradientsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		BDD011F72CC779FC0038CDE8 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
 		BDD011F92CC785C10038CDE8 /* ColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootcamp.swift; sourceTree = "<group>"; };
 		BDD011FB2CC7B4070038CDE8 /* Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine.swift; sourceTree = "<group>"; };
+		BDD011FF2CC8C1D60038CDE8 /* ObservableObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectBootcamp.swift; sourceTree = "<group>"; };
+		BDD012022CC9191D0038CDE8 /* GradientsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +68,8 @@
 				BDD011F52CC2639E0038CDE8 /* TextBootcamp.swift */,
 				BDD011F72CC779FC0038CDE8 /* ShapesBootcamp.swift */,
 				BDD011F92CC785C10038CDE8 /* ColorsBootcamp.swift */,
-				BDD011FB2CC7B4070038CDE8 /* Combine.swift */,
+				BDD012022CC9191D0038CDE8 /* GradientsBootcamp.swift */,
+				BDD012012CC919090038CDE8 /* Delegate */,
 				BDD011EB2CC2625F0038CDE8 /* Assets.xcassets */,
 				BDD011ED2CC2625F0038CDE8 /* Preview Content */,
 			);
@@ -77,6 +82,15 @@
 				BDD011EE2CC2625F0038CDE8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDD012012CC919090038CDE8 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				BDD011FB2CC7B4070038CDE8 /* Combine.swift */,
+				BDD011FF2CC8C1D60038CDE8 /* ObservableObjectBootcamp.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD012032CC9191D0038CDE8 /* GradientsBootcamp.swift in Sources */,
 				BDD011FA2CC785C10038CDE8 /* ColorsBootcamp.swift in Sources */,
 				BDD011F82CC779FC0038CDE8 /* ShapesBootcamp.swift in Sources */,
+				BDD012002CC8C1D60038CDE8 /* ObservableObjectBootcamp.swift in Sources */,
 				BDD011EA2CC2625D0038CDE8 /* ContentView.swift in Sources */,
 				BDD011FC2CC7B4070038CDE8 /* Combine.swift in Sources */,
 				BDD011F62CC2639E0038CDE8 /* TextBootcamp.swift in Sources */,
