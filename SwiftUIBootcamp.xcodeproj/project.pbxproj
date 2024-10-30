@@ -19,6 +19,8 @@
 		BDD012032CC9191D0038CDE8 /* GradientsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012022CC9191D0038CDE8 /* GradientsBootcamp.swift */; };
 		BDD012052CCA02DC0038CDE8 /* IconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012042CCA02DC0038CDE8 /* IconsBootcamp.swift */; };
 		BDD012072CCF8ADE0038CDE8 /* ImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012062CCF8ADE0038CDE8 /* ImageBootcamp.swift */; };
+		BDD012092CCF9AA70038CDE8 /* FrameBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012082CCF9AA70038CDE8 /* FrameBootcamp.swift */; };
+		BDD0120B2CCFA8480038CDE8 /* FrameText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0120A2CCFA8480038CDE8 /* FrameText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		BDD012022CC9191D0038CDE8 /* GradientsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsBootcamp.swift; sourceTree = "<group>"; };
 		BDD012042CCA02DC0038CDE8 /* IconsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootcamp.swift; sourceTree = "<group>"; };
 		BDD012062CCF8ADE0038CDE8 /* ImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBootcamp.swift; sourceTree = "<group>"; };
+		BDD012082CCF9AA70038CDE8 /* FrameBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBootcamp.swift; sourceTree = "<group>"; };
+		BDD0120A2CCFA8480038CDE8 /* FrameText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				BDD012022CC9191D0038CDE8 /* GradientsBootcamp.swift */,
 				BDD012042CCA02DC0038CDE8 /* IconsBootcamp.swift */,
 				BDD012062CCF8ADE0038CDE8 /* ImageBootcamp.swift */,
+				BDD012082CCF9AA70038CDE8 /* FrameBootcamp.swift */,
+				BDD0120A2CCFA8480038CDE8 /* FrameText.swift */,
 				BDD012012CC919090038CDE8 /* Delegate */,
 				BDD011EB2CC2625F0038CDE8 /* Assets.xcassets */,
 				BDD011ED2CC2625F0038CDE8 /* Preview Content */,
@@ -171,11 +177,13 @@
 			files = (
 				BDD012072CCF8ADE0038CDE8 /* ImageBootcamp.swift in Sources */,
 				BDD012032CC9191D0038CDE8 /* GradientsBootcamp.swift in Sources */,
+				BDD0120B2CCFA8480038CDE8 /* FrameText.swift in Sources */,
 				BDD011FA2CC785C10038CDE8 /* ColorsBootcamp.swift in Sources */,
 				BDD011F82CC779FC0038CDE8 /* ShapesBootcamp.swift in Sources */,
 				BDD012002CC8C1D60038CDE8 /* ObservableObjectBootcamp.swift in Sources */,
 				BDD011EA2CC2625D0038CDE8 /* ContentView.swift in Sources */,
 				BDD011FC2CC7B4070038CDE8 /* Combine.swift in Sources */,
+				BDD012092CCF9AA70038CDE8 /* FrameBootcamp.swift in Sources */,
 				BDD012052CCA02DC0038CDE8 /* IconsBootcamp.swift in Sources */,
 				BDD011F62CC2639E0038CDE8 /* TextBootcamp.swift in Sources */,
 				BDD011E82CC2625D0038CDE8 /* SwiftUIBootcampApp.swift in Sources */,
