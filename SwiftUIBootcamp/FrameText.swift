@@ -15,7 +15,7 @@ struct FrameText: View {
                     .fill(Color.purple)
                     .frame(width: 20, height: 50, alignment: .leading)
                 Text("Hell, World")
-                    .frame(height: .infinity)
+//                    .frame(height: .infinity)
                     .background(Color.orange)
 //                    .background(Color.orange)
 
