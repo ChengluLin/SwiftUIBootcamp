@@ -57,6 +57,7 @@
 		BDD011DB2CC2625D0038CDE8 = {
 			isa = PBXGroup;
 			children = (
+				BDD012012CC919090038CDE8 /* Delegate */,
 				BDD011E62CC2625D0038CDE8 /* SwiftUIBootcamp */,
 				BDD011E52CC2625D0038CDE8 /* Products */,
 			);
@@ -84,7 +85,6 @@
 				BDD012082CCF9AA70038CDE8 /* FrameBootcamp.swift */,
 				BDD0120A2CCFA8480038CDE8 /* FrameText.swift */,
 				BDD0120C2CD35C6B0038CDE8 /* BackgroundAndOverlayBootcamp.swift */,
-				BDD012012CC919090038CDE8 /* Delegate */,
 				BDD011EB2CC2625F0038CDE8 /* Assets.xcassets */,
 				BDD011ED2CC2625F0038CDE8 /* Preview Content */,
 			);
