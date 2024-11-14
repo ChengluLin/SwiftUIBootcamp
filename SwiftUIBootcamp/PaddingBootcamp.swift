@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PaddingAndSpacerBootcamp: View {
+struct PaddingBootcamp: View {
     var paddingNum: Int = 3
     var body: some View {
         if paddingNum == 0 {
@@ -67,5 +67,5 @@ struct PaddingAndSpacerBootcamp: View {
 }
 
 #Preview {
-    PaddingAndSpacerBootcamp()
+    PaddingBootcamp()
 }
