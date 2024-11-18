@@ -25,6 +25,7 @@
 		BDD0120F2CDA46A20038CDE8 /* StacksBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0120E2CDA46A20038CDE8 /* StacksBootcamp.swift */; };
 		BDD012112CE48FC00038CDE8 /* PaddingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012102CE48FC00038CDE8 /* PaddingBootcamp.swift */; };
 		BDD012132CE5B38C0038CDE8 /* SpacerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012122CE5B38C0038CDE8 /* SpacerBootcamp.swift */; };
+		BDD012152CEB57470038CDE8 /* InitializerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012142CEB57470038CDE8 /* InitializerBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		BDD0120E2CDA46A20038CDE8 /* StacksBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootcamp.swift; sourceTree = "<group>"; };
 		BDD012102CE48FC00038CDE8 /* PaddingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBootcamp.swift; sourceTree = "<group>"; };
 		BDD012122CE5B38C0038CDE8 /* SpacerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBootcamp.swift; sourceTree = "<group>"; };
+		BDD012142CEB57470038CDE8 /* InitializerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				BDD0120E2CDA46A20038CDE8 /* StacksBootcamp.swift */,
 				BDD012102CE48FC00038CDE8 /* PaddingBootcamp.swift */,
 				BDD012122CE5B38C0038CDE8 /* SpacerBootcamp.swift */,
+				BDD012142CEB57470038CDE8 /* InitializerBootcamp.swift */,
 				BDD011EB2CC2625F0038CDE8 /* Assets.xcassets */,
 				BDD011ED2CC2625F0038CDE8 /* Preview Content */,
 			);
@@ -196,6 +199,7 @@
 				BDD012112CE48FC00038CDE8 /* PaddingBootcamp.swift in Sources */,
 				BDD012002CC8C1D60038CDE8 /* ObservableObjectBootcamp.swift in Sources */,
 				BDD011EA2CC2625D0038CDE8 /* ContentView.swift in Sources */,
+				BDD012152CEB57470038CDE8 /* InitializerBootcamp.swift in Sources */,
 				BDD0120F2CDA46A20038CDE8 /* StacksBootcamp.swift in Sources */,
 				BDD011FC2CC7B4070038CDE8 /* Combine.swift in Sources */,
 				BDD012092CCF9AA70038CDE8 /* FrameBootcamp.swift in Sources */,

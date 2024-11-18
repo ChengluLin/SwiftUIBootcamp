@@ -72,7 +72,7 @@ struct SpacerBootcamp: View {
                 Spacer()
                 //                    .frame(width: 10)
                 //                    .background(Color.orange)
-                
+                Spacer()
                 Rectangle()
                     .frame(height: 55)
             }
