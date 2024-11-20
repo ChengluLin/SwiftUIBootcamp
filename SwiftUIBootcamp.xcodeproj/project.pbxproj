@@ -26,6 +26,7 @@
 		BDD012112CE48FC00038CDE8 /* PaddingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012102CE48FC00038CDE8 /* PaddingBootcamp.swift */; };
 		BDD012132CE5B38C0038CDE8 /* SpacerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012122CE5B38C0038CDE8 /* SpacerBootcamp.swift */; };
 		BDD012152CEB57470038CDE8 /* InitializerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012142CEB57470038CDE8 /* InitializerBootcamp.swift */; };
+		BDD012172CED93FA0038CDE8 /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012162CED93FA0038CDE8 /* ForEachBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		BDD012102CE48FC00038CDE8 /* PaddingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBootcamp.swift; sourceTree = "<group>"; };
 		BDD012122CE5B38C0038CDE8 /* SpacerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBootcamp.swift; sourceTree = "<group>"; };
 		BDD012142CEB57470038CDE8 /* InitializerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerBootcamp.swift; sourceTree = "<group>"; };
+		BDD012162CED93FA0038CDE8 /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				BDD012102CE48FC00038CDE8 /* PaddingBootcamp.swift */,
 				BDD012122CE5B38C0038CDE8 /* SpacerBootcamp.swift */,
 				BDD012142CEB57470038CDE8 /* InitializerBootcamp.swift */,
+				BDD012162CED93FA0038CDE8 /* ForEachBootcamp.swift */,
 				BDD011EB2CC2625F0038CDE8 /* Assets.xcassets */,
 				BDD011ED2CC2625F0038CDE8 /* Preview Content */,
 			);
@@ -207,6 +210,7 @@
 				BDD012052CCA02DC0038CDE8 /* IconsBootcamp.swift in Sources */,
 				BDD011F62CC2639E0038CDE8 /* TextBootcamp.swift in Sources */,
 				BDD011E82CC2625D0038CDE8 /* SwiftUIBootcampApp.swift in Sources */,
+				BDD012172CED93FA0038CDE8 /* ForEachBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
