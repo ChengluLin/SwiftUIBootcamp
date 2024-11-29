@@ -29,6 +29,7 @@
 		BDD012172CED93FA0038CDE8 /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012162CED93FA0038CDE8 /* ForEachBootcamp.swift */; };
 		BDD012192CF076960038CDE8 /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012182CF076960038CDE8 /* ScrollViewBootcamp.swift */; };
 		BDD0121B2CF716490038CDE8 /* GridBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0121A2CF716490038CDE8 /* GridBootcamp.swift */; };
+		BDD0121D2CF9C13A0038CDE8 /* SafeAreaBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0121C2CF9C13A0038CDE8 /* SafeAreaBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		BDD012162CED93FA0038CDE8 /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
 		BDD012182CF076960038CDE8 /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
 		BDD0121A2CF716490038CDE8 /* GridBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBootcamp.swift; sourceTree = "<group>"; };
+		BDD0121C2CF9C13A0038CDE8 /* SafeAreaBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				BDD012162CED93FA0038CDE8 /* ForEachBootcamp.swift */,
 				BDD012182CF076960038CDE8 /* ScrollViewBootcamp.swift */,
 				BDD0121A2CF716490038CDE8 /* GridBootcamp.swift */,
+				BDD0121C2CF9C13A0038CDE8 /* SafeAreaBootcamp.swift */,
 				BDD011EB2CC2625F0038CDE8 /* Assets.xcassets */,
 				BDD011ED2CC2625F0038CDE8 /* Preview Content */,
 			);
@@ -216,6 +219,7 @@
 				BDD012092CCF9AA70038CDE8 /* FrameBootcamp.swift in Sources */,
 				BDD0120D2CD35C6B0038CDE8 /* BackgroundAndOverlayBootcamp.swift in Sources */,
 				BDD012052CCA02DC0038CDE8 /* IconsBootcamp.swift in Sources */,
+				BDD0121D2CF9C13A0038CDE8 /* SafeAreaBootcamp.swift in Sources */,
 				BDD011F62CC2639E0038CDE8 /* TextBootcamp.swift in Sources */,
 				BDD011E82CC2625D0038CDE8 /* SwiftUIBootcampApp.swift in Sources */,
 				BDD012172CED93FA0038CDE8 /* ForEachBootcamp.swift in Sources */,
