@@ -32,6 +32,7 @@
 		BDD0121D2CF9C13A0038CDE8 /* SafeAreaBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0121C2CF9C13A0038CDE8 /* SafeAreaBootcamp.swift */; };
 		BDD0121F2CFDC2740038CDE8 /* ButtonsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0121E2CFDC2730038CDE8 /* ButtonsBootcamp.swift */; };
 		BDD012212D0013390038CDE8 /* StateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012202D0013390038CDE8 /* StateBootcamp.swift */; };
+		BDD012232D02EBCB0038CDE8 /* ExtractedFunctionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012222D02EBCB0038CDE8 /* ExtractedFunctionsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		BDD0121C2CF9C13A0038CDE8 /* SafeAreaBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBootcamp.swift; sourceTree = "<group>"; };
 		BDD0121E2CFDC2730038CDE8 /* ButtonsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsBootcamp.swift; sourceTree = "<group>"; };
 		BDD012202D0013390038CDE8 /* StateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootcamp.swift; sourceTree = "<group>"; };
+		BDD012222D02EBCB0038CDE8 /* ExtractedFunctionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				BDD0121E2CFDC2730038CDE8 /* ButtonsBootcamp.swift */,
 				BDD012202D0013390038CDE8 /* StateBootcamp.swift */,
 				BDD0121C2CF9C13A0038CDE8 /* SafeAreaBootcamp.swift */,
+				BDD012222D02EBCB0038CDE8 /* ExtractedFunctionsBootcamp.swift */,
 				BDD011EB2CC2625F0038CDE8 /* Assets.xcassets */,
 				BDD011ED2CC2625F0038CDE8 /* Preview Content */,
 			);
@@ -218,6 +221,7 @@
 				BDD012112CE48FC00038CDE8 /* PaddingBootcamp.swift in Sources */,
 				BDD012192CF076960038CDE8 /* ScrollViewBootcamp.swift in Sources */,
 				BDD012002CC8C1D60038CDE8 /* ObservableObjectBootcamp.swift in Sources */,
+				BDD012232D02EBCB0038CDE8 /* ExtractedFunctionsBootcamp.swift in Sources */,
 				BDD012212D0013390038CDE8 /* StateBootcamp.swift in Sources */,
 				BDD011EA2CC2625D0038CDE8 /* ContentView.swift in Sources */,
 				BDD012152CEB57470038CDE8 /* InitializerBootcamp.swift in Sources */,
