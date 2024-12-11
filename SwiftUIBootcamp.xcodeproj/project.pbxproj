@@ -33,6 +33,7 @@
 		BDD0121F2CFDC2740038CDE8 /* ButtonsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0121E2CFDC2730038CDE8 /* ButtonsBootcamp.swift */; };
 		BDD012212D0013390038CDE8 /* StateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012202D0013390038CDE8 /* StateBootcamp.swift */; };
 		BDD012232D02EBCB0038CDE8 /* ExtractedFunctionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012222D02EBCB0038CDE8 /* ExtractedFunctionsBootcamp.swift */; };
+		BDD012252D0419FC0038CDE8 /* ExtractSubviewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012242D0419FC0038CDE8 /* ExtractSubviewsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		BDD0121E2CFDC2730038CDE8 /* ButtonsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsBootcamp.swift; sourceTree = "<group>"; };
 		BDD012202D0013390038CDE8 /* StateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootcamp.swift; sourceTree = "<group>"; };
 		BDD012222D02EBCB0038CDE8 /* ExtractedFunctionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionsBootcamp.swift; sourceTree = "<group>"; };
+		BDD012242D0419FC0038CDE8 /* ExtractSubviewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				BDD012202D0013390038CDE8 /* StateBootcamp.swift */,
 				BDD0121C2CF9C13A0038CDE8 /* SafeAreaBootcamp.swift */,
 				BDD012222D02EBCB0038CDE8 /* ExtractedFunctionsBootcamp.swift */,
+				BDD012242D0419FC0038CDE8 /* ExtractSubviewsBootcamp.swift */,
 				BDD011EB2CC2625F0038CDE8 /* Assets.xcassets */,
 				BDD011ED2CC2625F0038CDE8 /* Preview Content */,
 			);
@@ -215,6 +218,7 @@
 				BDD012072CCF8ADE0038CDE8 /* ImageBootcamp.swift in Sources */,
 				BDD012032CC9191D0038CDE8 /* GradientsBootcamp.swift in Sources */,
 				BDD012132CE5B38C0038CDE8 /* SpacerBootcamp.swift in Sources */,
+				BDD012252D0419FC0038CDE8 /* ExtractSubviewsBootcamp.swift in Sources */,
 				BDD0120B2CCFA8480038CDE8 /* FrameText.swift in Sources */,
 				BDD011FA2CC785C10038CDE8 /* ColorsBootcamp.swift in Sources */,
 				BDD011F82CC779FC0038CDE8 /* ShapesBootcamp.swift in Sources */,

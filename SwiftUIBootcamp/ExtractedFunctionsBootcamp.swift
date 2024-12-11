@@ -12,7 +12,7 @@ struct ExtractedFunctionsBootcamp: View {
     @State var backgroundColor: Color = Color.pink
     
     var body: some View {
-        ZStack {     
+        ZStack {
             // background
             backgroundColor
                 .ignoresSafeArea(.all)
