@@ -34,6 +34,7 @@
 		BDD012212D0013390038CDE8 /* StateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012202D0013390038CDE8 /* StateBootcamp.swift */; };
 		BDD012232D02EBCB0038CDE8 /* ExtractedFunctionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012222D02EBCB0038CDE8 /* ExtractedFunctionsBootcamp.swift */; };
 		BDD012252D0419FC0038CDE8 /* ExtractSubviewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012242D0419FC0038CDE8 /* ExtractSubviewsBootcamp.swift */; };
+		BDD012272D0954E40038CDE8 /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD012262D0954E40038CDE8 /* BindingBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		BDD012202D0013390038CDE8 /* StateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootcamp.swift; sourceTree = "<group>"; };
 		BDD012222D02EBCB0038CDE8 /* ExtractedFunctionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionsBootcamp.swift; sourceTree = "<group>"; };
 		BDD012242D0419FC0038CDE8 /* ExtractSubviewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsBootcamp.swift; sourceTree = "<group>"; };
+		BDD012262D0954E40038CDE8 /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				BDD0121C2CF9C13A0038CDE8 /* SafeAreaBootcamp.swift */,
 				BDD012222D02EBCB0038CDE8 /* ExtractedFunctionsBootcamp.swift */,
 				BDD012242D0419FC0038CDE8 /* ExtractSubviewsBootcamp.swift */,
+				BDD012262D0954E40038CDE8 /* BindingBootcamp.swift */,
 				BDD011EB2CC2625F0038CDE8 /* Assets.xcassets */,
 				BDD011ED2CC2625F0038CDE8 /* Preview Content */,
 			);
@@ -222,6 +225,7 @@
 				BDD0120B2CCFA8480038CDE8 /* FrameText.swift in Sources */,
 				BDD011FA2CC785C10038CDE8 /* ColorsBootcamp.swift in Sources */,
 				BDD011F82CC779FC0038CDE8 /* ShapesBootcamp.swift in Sources */,
+				BDD012272D0954E40038CDE8 /* BindingBootcamp.swift in Sources */,
 				BDD012112CE48FC00038CDE8 /* PaddingBootcamp.swift in Sources */,
 				BDD012192CF076960038CDE8 /* ScrollViewBootcamp.swift in Sources */,
 				BDD012002CC8C1D60038CDE8 /* ObservableObjectBootcamp.swift in Sources */,
