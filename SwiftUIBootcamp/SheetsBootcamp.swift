@@ -25,27 +25,36 @@ struct SheetsBootcamp: View {
                     .padding(20)
                     .background(Color.white.cornerRadius(10))
             }
-            .sheet(isPresented: $showSheet) {
+            // 滿版
+            .fullScreenCover(isPresented: $showSheet, content: {
                 SecondScreen()
-            }
+
+            })
+            // 無滿版
+//            .sheet(isPresented: $showSheet) {
+//                // 不能在裡面寫邏輯，維持一個sheet就好
+//                SecondScreen()
+//            }
         }
     }
 }
 
 struct SecondScreen: View {
+    
+    @Environment(\.presentationMode) var presentationMode
+    
     var body: some View {
-        ZStack {
+        ZStack(alignment: .topLeading) {
             Color.red
                 .edgesIgnoringSafeArea(.all)
             
             Button {
-                
+                presentationMode.wrappedValue.dismiss()
             } label: {
-                Text("Button")
-                    .foregroundStyle(.red)
-                    .font(.headline)
+                Image(systemName: "xmark")
+                    .foregroundStyle(.white)
+                    .font(.largeTitle)
                     .padding(20)
-                    .background(Color.white.cornerRadius(10))
             }
         }
     }
@@ -53,4 +62,5 @@ struct SecondScreen: View {
 
 #Preview {
     SheetsBootcamp()
+//    SecondScreen()
 }
