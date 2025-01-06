@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD18FD012D1EA6B5005D3C32 /* SheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD18FD002D1EA6B5005D3C32 /* SheetsBootcamp.swift */; };
+		BD18FD052D2BC94D005D3C32 /* PopoverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD18FD042D2BC94D005D3C32 /* PopoverBootcamp.swift */; };
 		BDD011E82CC2625D0038CDE8 /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011E72CC2625D0038CDE8 /* SwiftUIBootcampApp.swift */; };
 		BDD011EA2CC2625D0038CDE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011E92CC2625D0038CDE8 /* ContentView.swift */; };
 		BDD011EC2CC2625F0038CDE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD011EB2CC2625F0038CDE8 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		BD18FD002D1EA6B5005D3C32 /* SheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootcamp.swift; sourceTree = "<group>"; };
+		BD18FD042D2BC94D005D3C32 /* PopoverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverBootcamp.swift; sourceTree = "<group>"; };
 		BDD011E42CC2625D0038CDE8 /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD011E72CC2625D0038CDE8 /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
 		BDD011E92CC2625D0038CDE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				BDD012222D02EBCB0038CDE8 /* ExtractedFunctionsBootcamp.swift */,
 				BDD012242D0419FC0038CDE8 /* ExtractSubviewsBootcamp.swift */,
 				BDD012262D0954E40038CDE8 /* BindingBootcamp.swift */,
+				BD18FD042D2BC94D005D3C32 /* PopoverBootcamp.swift */,
 				BDD012282D0BF8560038CDE8 /* ConditionalBootcamp.swift */,
 				BDD0122A2D1192EF0038CDE8 /* TernaryBootcamp.swift */,
 				BDD0122C2D12851E0038CDE8 /* AnimationsBootcamp.swift */,
@@ -257,6 +260,7 @@
 				BDD012212D0013390038CDE8 /* StateBootcamp.swift in Sources */,
 				BDD011EA2CC2625D0038CDE8 /* ContentView.swift in Sources */,
 				BDD012152CEB57470038CDE8 /* InitializerBootcamp.swift in Sources */,
+				BD18FD052D2BC94D005D3C32 /* PopoverBootcamp.swift in Sources */,
 				BDD0120F2CDA46A20038CDE8 /* StacksBootcamp.swift in Sources */,
 				BDD011FC2CC7B4070038CDE8 /* Combine.swift in Sources */,
 				BDD0121F2CFDC2740038CDE8 /* ButtonsBootcamp.swift in Sources */,
