@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BD18FD012D1EA6B5005D3C32 /* SheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD18FD002D1EA6B5005D3C32 /* SheetsBootcamp.swift */; };
 		BD18FD052D2BC94D005D3C32 /* PopoverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD18FD042D2BC94D005D3C32 /* PopoverBootcamp.swift */; };
+		BD18FD072D2CECC5005D3C32 /* NavigationViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD18FD062D2CECC5005D3C32 /* NavigationViewBootcamp.swift */; };
 		BDD011E82CC2625D0038CDE8 /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011E72CC2625D0038CDE8 /* SwiftUIBootcampApp.swift */; };
 		BDD011EA2CC2625D0038CDE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011E92CC2625D0038CDE8 /* ContentView.swift */; };
 		BDD011EC2CC2625F0038CDE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD011EB2CC2625F0038CDE8 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		BD18FD002D1EA6B5005D3C32 /* SheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootcamp.swift; sourceTree = "<group>"; };
 		BD18FD042D2BC94D005D3C32 /* PopoverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverBootcamp.swift; sourceTree = "<group>"; };
+		BD18FD062D2CECC5005D3C32 /* NavigationViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBootcamp.swift; sourceTree = "<group>"; };
 		BDD011E42CC2625D0038CDE8 /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD011E72CC2625D0038CDE8 /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
 		BDD011E92CC2625D0038CDE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				BDD0122E2D196C700038CDE8 /* AnimationTimingBootcamp.swift */,
 				BDD012302D1A724B0038CDE8 /* TransitionBootcamp.swift */,
 				BD18FD002D1EA6B5005D3C32 /* SheetsBootcamp.swift */,
+				BD18FD062D2CECC5005D3C32 /* NavigationViewBootcamp.swift */,
 				BDD011EB2CC2625F0038CDE8 /* Assets.xcassets */,
 				BDD011ED2CC2625F0038CDE8 /* Preview Content */,
 			);
@@ -247,6 +250,7 @@
 				BDD012292D0BF8560038CDE8 /* ConditionalBootcamp.swift in Sources */,
 				BDD012132CE5B38C0038CDE8 /* SpacerBootcamp.swift in Sources */,
 				BDD012252D0419FC0038CDE8 /* ExtractSubviewsBootcamp.swift in Sources */,
+				BD18FD072D2CECC5005D3C32 /* NavigationViewBootcamp.swift in Sources */,
 				BDD0120B2CCFA8480038CDE8 /* FrameText.swift in Sources */,
 				BDD011FA2CC785C10038CDE8 /* ColorsBootcamp.swift in Sources */,
 				BDD011F82CC779FC0038CDE8 /* ShapesBootcamp.swift in Sources */,
