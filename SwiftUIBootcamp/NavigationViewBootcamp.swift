@@ -20,8 +20,26 @@ struct NavigationViewBootcamp: View {
             .navigationTitle("All Inboxes")
 //            .navigationBarTitleDisplayMode(.automatic) // 上滑Title會改位置
 //            .navigationBarHidden(true) //隱藏Bar
-            
-            
+            .navigationBarItems(
+                leading:
+                    HStack {
+                        Image(systemName: "person.fill")
+                        NavigationLink(
+                            destination: MyOtherScreen(),
+                            label: {
+                                Image(systemName: "flame.fill")
+                            })
+                        .accentColor(.cyan)
+
+                    }
+                    ,
+                trailing: NavigationLink(
+                    destination: MyOtherScreen(),
+                    label: {
+                        Image(systemName: "gear")
+                    })
+                .accentColor(.red) // 更改按鈕顏色
+            )
         }
     }
 }
