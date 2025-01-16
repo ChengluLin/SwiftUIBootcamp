@@ -41,6 +41,7 @@ struct NavigationViewBootcamp: View {
                 .accentColor(.red) // 更改按鈕顏色
             )
         }
+        .navigationTitle("123")
     }
 }
 
