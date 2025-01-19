@@ -16,21 +16,41 @@ struct ListBootcamp: View {
     var body: some View {
         NavigationView {
             List {
-                Section(header: Text("Fruits")) {
+                Section(
+                    header: Text("Fruits")) {
                     ForEach(fruits, id: \.self) { fruit in
                         Text(fruit.capitalized)
-                        
                     }
                     .onDelete(perform: deleate)
+                    .onMove(perform: move)
                 }
             }
             .navigationTitle("All Inboxes")
-            .navigationBarItems(leading: EditButton())
+            .navigationBarItems(
+                leading: EditButton(),
+                trailing: addButton
+                   
+                    
+            )
         }
+    }
+    
+    var addButton: some View {
+        Button("Add", action: {
+            add()
+        })
     }
     
     func deleate(indexSet: IndexSet) {
         fruits.remove(atOffsets: indexSet)
+    }
+    
+    func move(indices: IndexSet, newOffset: Int) {
+        fruits.move(fromOffsets: indices, toOffset: newOffset)
+    }
+    
+    func add() {
+        fruits.append("Cocount")
     }
 }
 

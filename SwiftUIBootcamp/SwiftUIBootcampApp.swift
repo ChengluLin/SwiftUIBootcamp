@@ -12,7 +12,8 @@ struct SwiftUIBootcampApp: App {
     var body: some Scene {
         WindowGroup {
 //            FrameText()
-            SpacerBootcamp()
+//            SpacerBootcamp()
+            ListBootcamp()
         }
     }
 }
