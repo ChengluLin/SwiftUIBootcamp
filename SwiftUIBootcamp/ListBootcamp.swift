@@ -13,25 +13,38 @@ struct ListBootcamp: View {
         "apple", "orange", "banana", "peach"
     ]
     
+    @State var veggies: [String] = [
+        "tomato", "potato", "carrot"
+    ]
+    
     var body: some View {
         NavigationView {
             List {
                 Section(
-                    header: Text("Fruits")) {
+                    header: Text("Fruits")
+                        .foregroundColor(.blue)
+                ) {
                     ForEach(fruits, id: \.self) { fruit in
                         Text(fruit.capitalized)
+                            
                     }
                     .onDelete(perform: deleate)
                     .onMove(perform: move)
+                }
+                
+                Section(header: Text("Veggies").headerStyle()) {
+                    ForEach(veggies, id: \.self) { veggies in
+                        Text(veggies.capitalized)
+                        
+                    }
                 }
             }
             .navigationTitle("All Inboxes")
             .navigationBarItems(
                 leading: EditButton(),
                 trailing: addButton
-                   
-                    
             )
+            .accentColor(.red)
         }
     }
     
@@ -56,4 +69,18 @@ struct ListBootcamp: View {
 
 #Preview {
     ListBootcamp()
+}
+
+struct HeaderModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .foregroundColor(.cyan) // 統一顏色
+            .font(.headline)        // 統一字體樣式
+    }
+}
+
+extension View {
+    func headerStyle() -> some View {
+        self.modifier(HeaderModifier())
+    }
 }
