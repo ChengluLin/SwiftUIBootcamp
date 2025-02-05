@@ -21,15 +21,26 @@ struct ListBootcamp: View {
         NavigationView {
             List {
                 Section(
-                    header: Text("Fruits")
-                        .foregroundColor(.blue)
+                    header:
+                        HStack {
+                            Text("Fruits")
+                            Image(systemName: "flame.fill")
+                        }
+                        .font(.title)
+                        .foregroundStyle(.orange)
                 ) {
                     ForEach(fruits, id: \.self) { fruit in
                         Text(fruit.capitalized)
+                            .font(.caption)
+                            .foregroundStyle(.white)
+                            .padding(.vertical)
+//                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+//                            .background(Color.pink)
                             
                     }
                     .onDelete(perform: deleate)
                     .onMove(perform: move)
+                    .listRowBackground(Color.cyan)
                 }
                 
                 Section(header: Text("Veggies").headerStyle()) {
@@ -39,6 +50,7 @@ struct ListBootcamp: View {
                     }
                 }
             }
+            
             .navigationTitle("All Inboxes")
             .navigationBarItems(
                 leading: EditButton(),
