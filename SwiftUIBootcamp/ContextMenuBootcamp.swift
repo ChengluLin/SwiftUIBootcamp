@@ -42,8 +42,6 @@ struct ContextMenuBootcamp: View {
             }, label: {
                 Label("Like post", systemImage: "heart.fill")
             })
-            
-
         })
         
     }

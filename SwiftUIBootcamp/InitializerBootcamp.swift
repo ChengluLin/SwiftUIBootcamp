@@ -48,6 +48,26 @@ struct InitializerBootcamp: View {
         .frame(width: 150, height: 150)
         .background(backgroundColor)
         .clipShape(RoundedRectangle(cornerSize: CGSize(width: 20, height: 10)))
+        .contextMenu(menuItems: {
+            
+            Button(action: {
+//                backgroundColor = .yellow
+            }, label: {
+                Label("Share Post", systemImage: "flame.fill")
+            })
+            
+            Button(action: {
+//                backgroundColor = .green
+            }, label: {
+                Text("Report post")
+            })
+            
+            Button(action: {
+//                backgroundColor = .red
+            }, label: {
+                Label("Like post", systemImage: "heart.fill")
+            })
+        })
 
     }
 }
@@ -55,6 +75,9 @@ struct InitializerBootcamp: View {
 #Preview {
     VStack {
         InitializerBootcamp(count: 100, fruit: .orange)
+        InitializerBootcamp(count: 50, fruit: .apple)
+        InitializerBootcamp(count: 50, fruit: .apple)
+        InitializerBootcamp(count: 50, fruit: .apple)
         InitializerBootcamp(count: 50, fruit: .apple)
     }
 }
