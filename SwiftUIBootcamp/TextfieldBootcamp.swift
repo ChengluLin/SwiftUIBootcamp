@@ -22,16 +22,22 @@ struct TextfieldBootcamp: View {
                     .background(Color.gray.opacity(0.3).cornerRadius(10))
                     .foregroundStyle(.red)
                     .font(.headline)
+                
                 Button(action: {
-                    saveText()
+                    if textIsApproprate() {
+                        saveText()
+                    }
+                    
                 }, label: {
                     Text("Save".uppercased())
                         .padding()
                         .frame(maxWidth: .infinity)
-                        .background(Color.blue.cornerRadius(10))
+                        .background(textIsApproprate() ? Color.blue : Color.gray)
+                        .cornerRadius(10)
                         .foregroundColor(.white)
                         .font(.headline)
                 })
+                .disabled(!textIsApproprate())
                 
                 ForEach(dataArray, id: \.self) { data in
                     Text(data)
@@ -44,6 +50,14 @@ struct TextfieldBootcamp: View {
         }
        
         
+    }
+    
+    func textIsApproprate() -> Bool {
+        // check text
+        if textFieldText.count >= 3 {
+            return true
+        }
+        return false
     }
     
     func saveText() {
