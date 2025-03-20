@@ -18,8 +18,11 @@ struct PickerBootcamp2: View {
                     // 將 Picker 的內容放入 Menu 中
                     Picker("Picker 1", selection: $selectedOption) {
                         ForEach(0..<options.count, id: \.self) { index in
-                            Text(options[index])
-                                .tag(index)
+                            HStack {
+                                Text(options[index])
+                                Image(systemName: "heart.fill")
+                                    .tag(index)
+                            }
                         }
                     }
                     .pickerStyle(.menu) // 確保使用 menu 樣式
