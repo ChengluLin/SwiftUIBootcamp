@@ -10,6 +10,14 @@ import SwiftUI
 struct PickerBootcamp3: View {
     @State private var selectedOption = "Most Recent"
         let filterOptions = ["Option 1", "Option 2", "Option 3", "Option 4"]
+    
+    init() {
+        UISegmentedControl.appearance().selectedSegmentTintColor = UIColor.red
+        let attributes: [NSAttributedString.Key: Any] = [
+            .foregroundColor: UIColor.white
+        ]
+        UISegmentedControl.appearance().setTitleTextAttributes(attributes, for: .selected)
+    }
 
 
     var body: some View {
@@ -23,6 +31,7 @@ struct PickerBootcamp3: View {
                 }
             })
         .pickerStyle(SegmentedPickerStyle())
+        .background(Color.cyan)
     }
     }
 #Preview {
