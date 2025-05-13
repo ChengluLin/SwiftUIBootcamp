@@ -38,6 +38,7 @@ struct SliderBootcamp: View {
                 label: {
                     Text("Title")
                 })
+            
             .accentColor(.red)
         }
     }
