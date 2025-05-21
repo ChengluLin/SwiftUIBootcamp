@@ -22,6 +22,7 @@
 		BD22032F2DB9F659000A73B7 /* StepperBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22032E2DB9F659000A73B7 /* StepperBootcamp.swift */; };
 		BD2203312DC098A8000A73B7 /* SliderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2203302DC098A8000A73B7 /* SliderBootcamp.swift */; };
 		BD81983C2DD5B14900743A75 /* TabViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81983B2DD5B14900743A75 /* TabViewBootcamp.swift */; };
+		BD81983E2DD7359800743A75 /* TabViewBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81983D2DD7359800743A75 /* TabViewBootcamp2.swift */; };
 		BDD011E82CC2625D0038CDE8 /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011E72CC2625D0038CDE8 /* SwiftUIBootcampApp.swift */; };
 		BDD011EA2CC2625D0038CDE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011E92CC2625D0038CDE8 /* ContentView.swift */; };
 		BDD011EC2CC2625F0038CDE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD011EB2CC2625F0038CDE8 /* Assets.xcassets */; };
@@ -75,6 +76,7 @@
 		BD22032E2DB9F659000A73B7 /* StepperBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperBootcamp.swift; sourceTree = "<group>"; };
 		BD2203302DC098A8000A73B7 /* SliderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBootcamp.swift; sourceTree = "<group>"; };
 		BD81983B2DD5B14900743A75 /* TabViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBootcamp.swift; sourceTree = "<group>"; };
+		BD81983D2DD7359800743A75 /* TabViewBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBootcamp2.swift; sourceTree = "<group>"; };
 		BDD011E42CC2625D0038CDE8 /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD011E72CC2625D0038CDE8 /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
 		BDD011E92CC2625D0038CDE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 				BD22032E2DB9F659000A73B7 /* StepperBootcamp.swift */,
 				BD2203302DC098A8000A73B7 /* SliderBootcamp.swift */,
 				BD81983B2DD5B14900743A75 /* TabViewBootcamp.swift */,
+				BD81983D2DD7359800743A75 /* TabViewBootcamp2.swift */,
 				BDD011EB2CC2625F0038CDE8 /* Assets.xcassets */,
 				BDD011ED2CC2625F0038CDE8 /* Preview Content */,
 			);
@@ -313,6 +316,7 @@
 				BDD012002CC8C1D60038CDE8 /* ObservableObjectBootcamp.swift in Sources */,
 				BDD012232D02EBCB0038CDE8 /* ExtractedFunctionsBootcamp.swift in Sources */,
 				BDD012212D0013390038CDE8 /* StateBootcamp.swift in Sources */,
+				BD81983E2DD7359800743A75 /* TabViewBootcamp2.swift in Sources */,
 				BDD011EA2CC2625D0038CDE8 /* ContentView.swift in Sources */,
 				BDD012152CEB57470038CDE8 /* InitializerBootcamp.swift in Sources */,
 				BD18FD052D2BC94D005D3C32 /* PopoverBootcamp.swift in Sources */,
