@@ -13,10 +13,11 @@ struct DocumentationBootcamp: View {
         "Apple", "Orange", "Bananas"
     ]
     
+    @State var showAlert: Bool = false
     
     var body: some View {
         NavigationView {
-            VStack {
+            ScrollView {
                 Text("Hello")
                 ForEach(data, id: \.self) { name in
                     Text(name)
@@ -24,8 +25,19 @@ struct DocumentationBootcamp: View {
                 }
             }
             .navigationTitle("Documentation Bootcamp")
-            .navigationDocument(<#T##url: URL##URL#>)
+            .navigationBarItems(trailing:
+                                    Button("ALERT", action: {
+                showAlert.toggle()
+            })
+            )
+            .alert(isPresented: $showAlert) {
+                getAlert(text: "This is the alert!")
+            }
         }
+    }
+    
+    func getAlert(text: String) -> Alert {
+        return Alert(title: Text(text))
     }
 }
 
