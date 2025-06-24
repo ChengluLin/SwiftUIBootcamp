@@ -19,9 +19,15 @@ struct DocumentationBootcamp: View {
     
     // MARK: BODY
     
-    // Working copy - things to do:
-    // 1) Fix title
-    // 2) Fix alert
+
+    
+    // NICK - Working copy - things to do:
+    /*
+     // 1) Fix title
+     // 2) Fix alert
+     // 3) something else
+     
+     */
     
     var body: some View {
         NavigationView {
