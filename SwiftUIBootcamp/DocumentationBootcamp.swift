@@ -31,21 +31,32 @@ struct DocumentationBootcamp: View {
     
     var body: some View {
         NavigationView {
-            ScrollView {
-                Text("Hello")
-                ForEach(data, id: \.self) { name in
-                    Text(name)
-                        .font(.headline)
+
+            ZStack {
+                // background
+                Color.red.ignoresSafeArea()
+                
+                // forgeround
+                foregroundLayer
+                .navigationTitle("Documentation Bootcamp")
+                .navigationBarItems(trailing:
+                                        Button("ALERT", action: {
+                    showAlert.toggle()
+                })
+                )
+                .alert(isPresented: $showAlert) {
+                    getAlert(text: "This is the alert!")
                 }
             }
-            .navigationTitle("Documentation Bootcamp")
-            .navigationBarItems(trailing:
-                                    Button("ALERT", action: {
-                showAlert.toggle()
-            })
-            )
-            .alert(isPresented: $showAlert) {
-                getAlert(text: "This is the alert!")
+        }
+    }
+    
+    private var foregroundLayer: some View {
+        ScrollView {
+            Text("Hello")
+            ForEach(data, id: \.self) { name in
+                Text(name)
+                    .font(.headline)
             }
         }
     }
