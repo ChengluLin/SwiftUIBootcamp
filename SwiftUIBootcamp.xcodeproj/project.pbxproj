@@ -26,6 +26,7 @@
 		BD8198402DDD95F300743A75 /* DarkModeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81983F2DDD95F300743A75 /* DarkModeBootcamp.swift */; };
 		BD8198422DEEB52100743A75 /* DocumentationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8198412DEEB52100743A75 /* DocumentationBootcamp.swift */; };
 		BD8198442E17C59800743A75 /* OnAppearBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8198432E17C59800743A75 /* OnAppearBootcamp.swift */; };
+		BD8198462E1CF19500743A75 /* IfLetGraudBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8198452E1CF19500743A75 /* IfLetGraudBootcamp.swift */; };
 		BDD011E82CC2625D0038CDE8 /* SwiftUIBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011E72CC2625D0038CDE8 /* SwiftUIBootcampApp.swift */; };
 		BDD011EA2CC2625D0038CDE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD011E92CC2625D0038CDE8 /* ContentView.swift */; };
 		BDD011EC2CC2625F0038CDE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD011EB2CC2625F0038CDE8 /* Assets.xcassets */; };
@@ -83,6 +84,7 @@
 		BD81983F2DDD95F300743A75 /* DarkModeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBootcamp.swift; sourceTree = "<group>"; };
 		BD8198412DEEB52100743A75 /* DocumentationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentationBootcamp.swift; sourceTree = "<group>"; };
 		BD8198432E17C59800743A75 /* OnAppearBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBootcamp.swift; sourceTree = "<group>"; };
+		BD8198452E1CF19500743A75 /* IfLetGraudBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGraudBootcamp.swift; sourceTree = "<group>"; };
 		BDD011E42CC2625D0038CDE8 /* SwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD011E72CC2625D0038CDE8 /* SwiftUIBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootcampApp.swift; sourceTree = "<group>"; };
 		BDD011E92CC2625D0038CDE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				BD81983F2DDD95F300743A75 /* DarkModeBootcamp.swift */,
 				BD8198412DEEB52100743A75 /* DocumentationBootcamp.swift */,
 				BD8198432E17C59800743A75 /* OnAppearBootcamp.swift */,
+				BD8198452E1CF19500743A75 /* IfLetGraudBootcamp.swift */,
 				BDD011EB2CC2625F0038CDE8 /* Assets.xcassets */,
 				BDD011ED2CC2625F0038CDE8 /* Preview Content */,
 			);
@@ -314,6 +317,7 @@
 				BD2203292D8C1351000A73B7 /* PickerBootcamp3.swift in Sources */,
 				BD18FD0F2D5F0759005D3C32 /* ActionsheetBootcamp.swift in Sources */,
 				BDD0120B2CCFA8480038CDE8 /* FrameText.swift in Sources */,
+				BD8198462E1CF19500743A75 /* IfLetGraudBootcamp.swift in Sources */,
 				BDD011FA2CC785C10038CDE8 /* ColorsBootcamp.swift in Sources */,
 				BDE7E8672D853A6C0059B9EB /* PickerBootcamp.swift in Sources */,
 				BDD011F82CC779FC0038CDE8 /* ShapesBootcamp.swift in Sources */,
