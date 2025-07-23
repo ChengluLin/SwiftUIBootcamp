@@ -17,10 +17,15 @@ struct IfLetGraudBootcamp: View {
         NavigationView {
             VStack {
                 Text("Here we are practicing safe coding!")
+                
                 if let text = displyText {
                     Text(text)
                         .font(.title)
                 }
+                
+//                Text(displyText!)
+//                    .font(.title)
+                
                 if isLoading {
                     ProgressView()
                 }
@@ -35,7 +40,6 @@ struct IfLetGraudBootcamp: View {
     }
     
     func loadData() {
-        
         if let userID = currentUserID {
             isLoading = true
             DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
@@ -45,8 +49,19 @@ struct IfLetGraudBootcamp: View {
         } else {
             displyText = "Error. There is no User ID!"
         }
+    }
+    
+    func loadData2() {
+        guard let userID = currentUserID else {
+            displyText = "Error. There is no User ID!"
+            return
+        }
         
-
+        isLoading = true
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            displyText = "This is the new data!: \(userID)"
+            isLoading = false
+        }
     }
 }
 
