@@ -18,6 +18,10 @@ class FruitViewModel: ObservableObject {
     @Published var fruitArray: [FruitModel] = []
     @Published var isLoading: Bool = false
     
+    init() {
+        getFruits()
+    }
+    
     func getFruits() {
         let fruit1 = FruitModel(name: "Orange", count: 1)
         let fruit2 = FruitModel(name: "Banana", count: 2)
@@ -42,7 +46,9 @@ class FruitViewModel: ObservableObject {
 
 struct ViewModelBootcamp: View {
     
-    @ObservedObject var fruitViewModel: FruitViewModel = FruitViewModel()
+    // @StateObject -> Use This on Creation / init
+    // @ObservedObject -> Use This For Subviews
+    @StateObject var fruitViewModel: FruitViewModel = FruitViewModel()
     
     var body: some View {
         NavigationView {
@@ -68,13 +74,53 @@ struct ViewModelBootcamp: View {
             }
             .listStyle(GroupedListStyle())
             .navigationTitle("Fruit List")
-            .onAppear {
-                fruitViewModel.getFruits()
+            .navigationBarItems(trailing:
+                                    NavigationLink(
+                                        destination: RandomScreen( fruitViewMode: fruitViewModel),
+                                        label: {
+                                            Image(systemName: "arrow.right")
+                                                .font(.title)
+                                        })
+                                        )
+                            
+//            .onAppear {
+//                fruitViewModel.getFruits()
+//            }
+        }
+    }
+}
+
+struct RandomScreen: View {
+    
+    @Environment(\.presentationMode) var presentationMode
+    @ObservedObject var fruitViewMode: FruitViewModel
+    
+    var body: some View {
+        ZStack {
+            Color.green.ignoresSafeArea()
+            
+            VStack {
+                ForEach(fruitViewMode.fruitArray) { fruit in
+                    Text(fruit.name)
+                        .foregroundStyle(.white)
+                        .font(.headline)
+                }
             }
+            
+//            Button {
+//                presentationMode.wrappedValue.dismiss()
+//            } label: {
+//                Text("Go Back")
+//                    .foregroundStyle(.white)
+//                    .font(.largeTitle)
+//                    .fontWeight(.semibold)
+//            }
+
         }
     }
 }
 
 #Preview {
     ViewModelBootcamp()
+//    RandomScreen()
 }
