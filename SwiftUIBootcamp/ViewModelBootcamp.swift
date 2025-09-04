@@ -106,16 +106,6 @@ struct RandomScreen: View {
                         .font(.headline)
                 }
             }
-            
-//            Button {
-//                presentationMode.wrappedValue.dismiss()
-//            } label: {
-//                Text("Go Back")
-//                    .foregroundStyle(.white)
-//                    .font(.largeTitle)
-//                    .fontWeight(.semibold)
-//            }
-
         }
     }
 }
