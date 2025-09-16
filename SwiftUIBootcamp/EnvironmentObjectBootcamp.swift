@@ -33,7 +33,8 @@ struct EnvironmentObjectBootcamp: View {
         NavigationView {
             List {
                 ForEach(viewModel.dataArray, id: \.self) { item in
-                    NavigationLink(destination: Text("Destination")) {
+                    NavigationLink(
+                        destination: DetailView(selectedItem: item, viewModel: viewModel)) {
                         Text(item)
                     }
                 }
@@ -46,6 +47,7 @@ struct EnvironmentObjectBootcamp: View {
 struct DetailView: View {
     
     let selectedItem: String
+    @ObservedObject var viewModel: EnvironmentViewModel
     
     var body: some View {
         ZStack {
@@ -53,19 +55,47 @@ struct DetailView: View {
             Color.orange.ignoresSafeArea()
             
             // foreground
-            Text(selectedItem)
-                .font(.headline)
-                .foregroundStyle(.orange)
-                .padding()
-                .padding(.horizontal)
-                .background(Color.white)
-                .cornerRadius(30)
+            NavigationLink(destination: FinalView(viewModel: viewModel)) {
+                Text(selectedItem)
+                    .font(.headline)
+                    .foregroundStyle(.orange)
+                    .padding()
+                    .padding(.horizontal)
+                    .background(Color.white)
+                    .cornerRadius(30)
+            }
+        }
+    }
+}
+
+struct FinalView: View {
+    
+    @ObservedObject var viewModel: EnvironmentViewModel
+    
+    var body: some View {
+        ZStack {
+            // background
+            LinearGradient(
+                gradient: Gradient(colors: [Color.blue, Color.black]),
+                startPoint: .topLeading,
+                endPoint: .bottomTrailing)
+            .ignoresSafeArea()
             
+            ScrollView {
+                VStack(spacing: 20) {
+                    ForEach(viewModel.dataArray, id: \.self) { item in
+                        Text(item)
+                    }
+                }
+                .foregroundStyle(.white)
+                .font(.largeTitle)
+            }
         }
     }
 }
 
 #Preview {
-//    EnvironmentObjectBootcamp()
-    DetailView(selectedItem: "iPhone 12")
+    EnvironmentObjectBootcamp()
+//    DetailView(selectedItem: "iPhone 12")
+//    FinalView()
 }
