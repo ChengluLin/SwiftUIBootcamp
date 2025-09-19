@@ -34,20 +34,21 @@ struct EnvironmentObjectBootcamp: View {
             List {
                 ForEach(viewModel.dataArray, id: \.self) { item in
                     NavigationLink(
-                        destination: DetailView(selectedItem: item, viewModel: viewModel)) {
+                        destination: DetailView(selectedItem: item)) {
                         Text(item)
                     }
                 }
             }
             .navigationTitle("iOS Devices")
         }
+        .environmentObject(viewModel)
     }
 }
 
 struct DetailView: View {
     
     let selectedItem: String
-    @ObservedObject var viewModel: EnvironmentViewModel
+//    @ObservedObject var viewModel: EnvironmentViewModel
     
     var body: some View {
         ZStack {
@@ -55,7 +56,7 @@ struct DetailView: View {
             Color.orange.ignoresSafeArea()
             
             // foreground
-            NavigationLink(destination: FinalView(viewModel: viewModel)) {
+            NavigationLink(destination: FinalView()) {
                 Text(selectedItem)
                     .font(.headline)
                     .foregroundStyle(.orange)
@@ -70,7 +71,9 @@ struct DetailView: View {
 
 struct FinalView: View {
     
-    @ObservedObject var viewModel: EnvironmentViewModel
+//    @ObservedObject var viewModel: EnvironmentViewModel
+    @EnvironmentObject var viewModel: EnvironmentViewModel
+
     
     var body: some View {
         ZStack {
