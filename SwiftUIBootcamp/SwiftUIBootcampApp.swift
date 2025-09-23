@@ -13,7 +13,8 @@ struct SwiftUIBootcampApp: App {
         WindowGroup {
 //            FrameText()
 //            SpacerBootcamp()
-            ListBootcamp()
+//            ListBootcamp()
+            AppStorageBootcamp()
         }
     }
 }
