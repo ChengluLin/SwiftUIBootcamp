@@ -17,20 +17,26 @@ struct OnboardingView: View {
      3 - Add gender
      */
     
-    @State var onboardingState: Int = 1
+    @State var onboardingState: Int = 3
     @State var name: String = ""
+    @State var age: Double = 50
+    @State var gender: String = ""
     
     var body: some View {
         ZStack {
             // content
             Color.purple
-//                .ignoresSafeArea()
+            //                .ignoresSafeArea()
             ZStack {
                 switch onboardingState {
                 case 0:
                     welcomeSection
                 case 1:
                     addNameSection
+                case 2:
+                    addAgeSection
+                case 3:
+                    addGenderSection
                 default:
                     RoundedRectangle(cornerRadius: 25)
                         .foregroundStyle(.green)
@@ -41,7 +47,7 @@ struct OnboardingView: View {
             VStack {
                 Spacer()
                 bottomButton
-               
+                
             }
             .padding(30)
         }
@@ -50,7 +56,7 @@ struct OnboardingView: View {
 
 #Preview {
     OnboardingView()
-//        .background(Color.purple)
+    //        .background(Color.purple)
 }
 
 // MARK: COMPONENTS
@@ -59,16 +65,16 @@ extension OnboardingView {
     
     private var bottomButton: some View {
         Text("Sign in")
-                   .font(.headline)
-                   .foregroundStyle(.purple)
-                   .frame(height: 55)
-                   .frame(maxWidth: .infinity)
-                   .background(Color.white)
-                   .cornerRadius(10)
-                   .padding(.horizontal, 30) // 加上左右間距
-                   .onTapGesture {
-                       // 按鈕點擊後的動作
-                   }
+            .font(.headline)
+            .foregroundStyle(.purple)
+            .frame(height: 55)
+            .frame(maxWidth: .infinity)
+            .background(Color.white)
+            .cornerRadius(10)
+            .padding(.horizontal, 30) // 加上左右間距
+            .onTapGesture {
+                // 按鈕點擊後的動作
+            }
     }
     
     private var welcomeSection: some View {
@@ -123,19 +129,69 @@ extension OnboardingView {
     private var addAgeSection: some View {
         VStack(spacing: 20) {
             Spacer()
-            Text("What.s your name?")
+            Text("What.s your age?")
                 .font(.largeTitle)
                 .fontWeight(.semibold)
                 .foregroundStyle(.white)
-            TextField("Your name here...", text: $name)
-                .font(.headline)
-                .frame(height: 55)
-                .padding(.horizontal)
-                .background(.white)
-                .cornerRadius(10)
+            Text("\( String(format: "%.0f", age))")
+                .font(.largeTitle)
+                .fontWeight(.semibold)
+                .foregroundStyle(.white)
+            Slider(value: $age, in: 18...100, step: 1)
+                .accentColor(.white)
             Spacer()
             Spacer()
         }
         .padding(30)
     }
+    
+    private var addGenderSection: some View {
+        VStack(spacing: 20) {
+            Spacer()
+            Text("What.s your gender?")
+                .font(.largeTitle)
+                .fontWeight(.semibold)
+                .foregroundStyle(.white)
+            
+            //            Picker(selection: $gender) {
+            //                Text("Male").tag("Male")
+            //                Text("Female").tag("Female")
+            //                Text("Non-Binary").tag("Non-Binary")
+            //
+            //            } label: {
+            //                Text("Selecxt a gender")
+            //                    .font(.headline)
+            //                    .foregroundStyle(.purple)
+            //                    .frame(height: 55)
+            //                    .frame(maxWidth: .infinity)
+            //                    .background(Color.white)
+            //                    .cornerRadius(10)
+            //            }
+            Menu {
+                Picker(selection: $gender, label: EmptyView()) {
+                    Text("Male").tag("Male")
+                    Text("Female").tag("Female")
+                    Text("Non-Binary").tag("Non-Binary")
+                }
+            } label: {
+                Text(gender.isEmpty ? "Select a gender" : gender)
+                    .font(.headline)
+                    .foregroundStyle(.purple)
+                    .frame(height: 55)
+                    .frame(maxWidth: .infinity)
+                    .background(Color.white)
+                    .cornerRadius(10)
+            }
+            Spacer()
+            Spacer()
+        }
+        .padding(30)
+    }
+}
+
+
+// MARK: FUNCTIONS
+
+extension OnboardingView {
+    
 }
