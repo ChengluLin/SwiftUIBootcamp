@@ -145,6 +145,7 @@ extension OnboardingView {
         .padding(30)
     }
     
+    
     private var addGenderSection: some View {
         VStack(spacing: 20) {
             Spacer()
