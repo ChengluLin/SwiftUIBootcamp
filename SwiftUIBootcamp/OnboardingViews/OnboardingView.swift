@@ -17,7 +17,7 @@ struct OnboardingView: View {
      3 - Add gender
      */
     
-    @State var onboardingState: Int = 3
+    @State var onboardingState: Int = 0
     @State var name: String = ""
     @State var age: Double = 50
     @State var gender: String = ""
@@ -64,7 +64,9 @@ struct OnboardingView: View {
 extension OnboardingView {
     
     private var bottomButton: some View {
-        Text("Sign in")
+        Text(onboardingState == 0 ? "Sign in" :
+                onboardingState == 3 ? "FINISH" : "NEXT"
+        )
             .font(.headline)
             .foregroundStyle(.purple)
             .frame(height: 55)
@@ -73,7 +75,7 @@ extension OnboardingView {
             .cornerRadius(10)
             .padding(.horizontal, 30) // 加上左右間距
             .onTapGesture {
-                // 按鈕點擊後的動作
+                handleNextButtonPress()
             }
     }
     
@@ -194,5 +196,15 @@ extension OnboardingView {
 // MARK: FUNCTIONS
 
 extension OnboardingView {
+    
+    func handleNextButtonPress() {
+        
+        withAnimation(.spring()) {
+            onboardingState += 1
+        }
+    }
+    
+    
+    
     
 }
