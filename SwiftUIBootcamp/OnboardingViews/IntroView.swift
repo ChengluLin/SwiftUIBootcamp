@@ -15,16 +15,16 @@ struct IntroView: View {
         ZStack {
             // background
             RadialGradient(
-                gradient: Gradient(colors: [Color.cyan, Color.blue]),
+                gradient: Gradient(colors: [Color.purple, Color.purple]),
                 center: .topLeading,
-                startRadius: 400,
+                startRadius: 5,
                 endRadius: UIScreen.main.bounds.height)
             .ignoresSafeArea()
             
             if currentUserSignedIn {
                 Text("Profile View")
             } else {
-                Text("Onboarding View")
+                OnboardingView()
             }
             
             // if user is signed in

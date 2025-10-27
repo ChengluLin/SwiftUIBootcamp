@@ -14,7 +14,8 @@ struct SwiftUIBootcampApp: App {
 //            FrameText()
 //            SpacerBootcamp()
 //            ListBootcamp()
-            AppStorageBootcamp()
+//            AppStorageBootcamp()
+            IntroView()
         }
     }
 }
