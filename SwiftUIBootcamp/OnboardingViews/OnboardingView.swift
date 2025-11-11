@@ -253,6 +253,7 @@ extension OnboardingView {
         }
     }
     
+    
     func singIn() {
         currentUserName = name
         currentUserAge = Int(age)
