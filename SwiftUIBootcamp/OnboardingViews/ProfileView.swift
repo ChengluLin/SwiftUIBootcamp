@@ -44,6 +44,7 @@ struct ProfileView: View {
                 .shadow(radius: 10)
     }
     
+    
     func signOut() {
         currentUserName = nil
         currentUserAge = nil
