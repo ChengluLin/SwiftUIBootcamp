@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AsyncImageBootcamp: View {
     
-    let url = URL(string: "https://picsum.photos/200")
+    let url = URL(string: "https://picsum.ph")
     
     var body: some View {
         //        AsyncImage(url: url, content: { returnedImage in
@@ -33,12 +33,18 @@ struct AsyncImageBootcamp: View {
                     .scaledToFit()
                     .frame(width: 200, height: 200)
                     .cornerRadius(20)
-            case .failure(let error):
+            case .failure(_):
                 Image(systemName: "questionmark")
-                    .font(.headline)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 200, height: 200)
+//                    .font(.headline)
             default:
                 Image(systemName: "questionmark")
-                    .font(.headline)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 200, height: 200)
+//                    .font(.headline)
             }
         }
     }
