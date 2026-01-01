@@ -19,6 +19,7 @@
 		BD1E82012E7D1CDA00D58459 /* AppStorageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1E82002E7D1CDA00D58459 /* AppStorageBootcamp.swift */; };
 		BD21C7F52EF2965F005B06A2 /* BackgroundMaterialsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21C7F42EF2965F005B06A2 /* BackgroundMaterialsBootcamp.swift */; };
 		BD21C7F72EF29843005B06A2 /* TextSelectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21C7F62EF29843005B06A2 /* TextSelectionBootcamp.swift */; };
+		BD21C7F92F06428E005B06A2 /* ButtonStylesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD21C7F82F06428E005B06A2 /* ButtonStylesBootcamp.swift */; };
 		BD2203292D8C1351000A73B7 /* PickerBootcamp3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2203282D8C1351000A73B7 /* PickerBootcamp3.swift */; };
 		BD22032B2D9BAA0D000A73B7 /* ColorPickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22032A2D9BAA0D000A73B7 /* ColorPickerBootcamp.swift */; };
 		BD22032D2DA63927000A73B7 /* DatePickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD22032C2DA63927000A73B7 /* DatePickerBootcamp.swift */; };
@@ -85,6 +86,7 @@
 		BD1E82002E7D1CDA00D58459 /* AppStorageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBootcamp.swift; sourceTree = "<group>"; };
 		BD21C7F42EF2965F005B06A2 /* BackgroundMaterialsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialsBootcamp.swift; sourceTree = "<group>"; };
 		BD21C7F62EF29843005B06A2 /* TextSelectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionBootcamp.swift; sourceTree = "<group>"; };
+		BD21C7F82F06428E005B06A2 /* ButtonStylesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesBootcamp.swift; sourceTree = "<group>"; };
 		BD2203282D8C1351000A73B7 /* PickerBootcamp3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBootcamp3.swift; sourceTree = "<group>"; };
 		BD22032A2D9BAA0D000A73B7 /* ColorPickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerBootcamp.swift; sourceTree = "<group>"; };
 		BD22032C2DA63927000A73B7 /* DatePickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerBootcamp.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 				BD48E6752ED5981600F99B3E /* AsyncImageBootcamp.swift */,
 				BD21C7F42EF2965F005B06A2 /* BackgroundMaterialsBootcamp.swift */,
 				BD21C7F62EF29843005B06A2 /* TextSelectionBootcamp.swift */,
+				BD21C7F82F06428E005B06A2 /* ButtonStylesBootcamp.swift */,
 				BD1E820F2EB32AE700D58459 /* OnboardingViews */,
 				BDD011EB2CC2625F0038CDE8 /* Assets.xcassets */,
 				BDD011ED2CC2625F0038CDE8 /* Preview Content */,
@@ -382,6 +385,7 @@
 				BD22032D2DA63927000A73B7 /* DatePickerBootcamp.swift in Sources */,
 				BDD012052CCA02DC0038CDE8 /* IconsBootcamp.swift in Sources */,
 				BD21C7F72EF29843005B06A2 /* TextSelectionBootcamp.swift in Sources */,
+				BD21C7F92F06428E005B06A2 /* ButtonStylesBootcamp.swift in Sources */,
 				BDD0121D2CF9C13A0038CDE8 /* SafeAreaBootcamp.swift in Sources */,
 				BDD011F62CC2639E0038CDE8 /* TextBootcamp.swift in Sources */,
 				BD18FD132D674340005D3C32 /* ContextMenuBootcamp.swift in Sources */,
